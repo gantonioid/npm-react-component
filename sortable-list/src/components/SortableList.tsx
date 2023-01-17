@@ -9,10 +9,10 @@ import {
   ListItemText,
   Paper,
   Tooltip,
-} from '@material-ui/core'
+} from '@mui/material'
 import { Container, Draggable } from 'react-smooth-dnd'
 import { arrayMoveImmutable } from 'array-move'
-import { DragHandle, Edit } from '@material-ui/icons'
+import { DragHandle, Edit } from '@mui/icons-material'
 
 interface Props {
   /**
