@@ -1,3 +1,3 @@
-import SortableList from "./components/SortableList";
+import SortableList from './components/SortableList'
 
 export { SortableList }
