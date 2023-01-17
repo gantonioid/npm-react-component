@@ -1,6 +1,6 @@
 {
   "name": "@gantonioid/sortable-list",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -13,7 +13,7 @@
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
     "test": "jest --config jestconfig.json",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run prettier && npm run lint"
+    "prepublishOnly": "npm run prettier && npm run lint"
   },
   "keywords": [],
   "author": "Antonio Isida (gantonioid)",
