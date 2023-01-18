@@ -49,3 +49,5 @@ This is required in your `package.json` because private packages need a credit c
     ...
 }
 ```
+
+Before a publish, you should update your package's version in the `package.json` file
