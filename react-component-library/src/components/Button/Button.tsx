@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface Props {
+export interface ButtonProps {
     label: string;
 }
 
-const Button: React.FC<Props> = (props: Props) => {
+const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
     return <button>{props.label}</button>
 }
 
