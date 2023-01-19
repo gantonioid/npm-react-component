@@ -1,5 +1,4 @@
-# sortable-list
+# react-component-library
 
-React component of a list. The items can be dragged to set them in a custom order.
-
-The list also includes a button to edit each item and another one to add items to the list. This has to be handled by external functions, because the component only does the render and draggable interaction
+Repositorio que contiene experimentos personales para crear un paquete npm con componentes reutilizables de React.
+Si quieres hacer tu propio paquete npm como este, puedes leer [HOWTO.md](./HOWTO.md)
