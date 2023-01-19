@@ -1,6 +1,6 @@
 {
   "name": "@gantonioid/react-component-library",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "A react component library, created following a tutorial.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -44,6 +44,9 @@
     "babel-loader": "^8.3.0",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^4.1.1",
     "rollup": "^3.10.0",
     "rollup-plugin-dts": "^5.1.1",
     "tslib": "^2.4.1",
@@ -52,13 +55,12 @@
   "peerDependencies": {
     "@emotion/react": ">=11",
     "@emotion/styled": ">=11",
-    "@mui/material": ">=5"
+    "@mui/material": ">=5",
+    "react":">=17",
+    "react-dom":">=17"
   },
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+  "dependencies": {}
 }
