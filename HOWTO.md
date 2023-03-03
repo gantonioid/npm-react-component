@@ -1,6 +1,6 @@
 # How to create an NPM package of a React component
 
-> Full tutorial: https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
+> Based on: https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
 
 ## Overview
 Create your files and folders like so:
