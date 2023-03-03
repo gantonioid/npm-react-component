@@ -149,6 +149,17 @@ We are going to rely on four plugins for the initial configuration of our librar
 
 To launch the rollup task run `npm run rollup` (script needed in [package.json](react-component-library/package.json))
 
+### Add docs!
+The world will thank you if you add some description and instructions on what your package does and how to use it.
+
+Add a `README.md` file next to your `package.json` and reference it in the "readme" field.
+```json
+{
+    ...
+    "readme": "./README.md"
+}
+```
+
 ### Publishing
 1. Create a `.gitignore` file excluding `node_modules` and `dist` folders.
 ```
