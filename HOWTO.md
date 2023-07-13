@@ -194,6 +194,32 @@ legacy-peer-deps=true
 
 Before you continue, do one more sanity check to be sure you didn't create the `.npmrc` file in the root directory of your actual library project. This is technically an option, however the reason you need to be careful is that you could accidentally commit it to your Github repository with the rest of your library code and expose your token to the public. If your `.npmrc` file is in your home directory the risk of this is minimized.
 
+#### Update Jul 2023
+Softtek innovation has an official npmjs account and organization!
+
+Packages should be published within the organization's scope, that is `@fridaplatform-stk/<pagageName>`
+
+```json
+{
+    "name": "@fridaplatform-stk/<packageName>",
+    ...
+    "publishConfig": {
+        "access": "private"
+    },
+    ...
+    "author": "@fridaplatform",
+    ...
+}
+```
+To do that, you must login in your CLI as fridaplatform or any other user that has access to the org
+```cmd
+npm login
+fridaplatform
+Softtek.001
+// A One-Time-Password (OTP) will be sent to gilberto.isida@softtek.com, ask him for the code to complete your login
+When the CLI login asks you for the email, enter innovation@soofttek.com
+```
+
 5. It is always good to check if everything is OK before publishing. Test your build with a dry run
 ```
 npm publish --dry-run
