@@ -217,7 +217,7 @@ npm login
 fridaplatform
 Softtek.001
 // A One-Time-Password (OTP) will be sent to gilberto.isida@softtek.com, ask him for the code to complete your login
-When the CLI login asks you for the email, enter innovation@soofttek.com
+When the CLI login asks you for the email, enter innovation@softtek.com
 ```
 
 5. It is always good to check if everything is OK before publishing. Test your build with a dry run
@@ -242,7 +242,7 @@ This will do a simulation of a publish, without actually publishing the package.
 ```
 npm publish
 ```
-Congratulations! You have now published version 0.0.1 of your React component library! Seach npmjs.com for your package `@YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME`
+Congratulations! You have now published version 0.0.1 of your React component library! Seach npmjs.com for your package `@fridaplatform-stk/YOUR_REPOSITORY_NAME`
 
 
 ![Component props](assets/published.PNG)
